@@ -1,0 +1,103 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "微軟正黑體";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#model {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#model .model_content {
+  display: none;
+  width: 400px;
+  -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: #68B7AD;
+}
+
+#model .model_content .container {
+  margin-left: 10px;
+}
+
+#model .model_content .container section {
+  margin-bottom: 10px;
+}
+
+#model .model_content .container section .user {
+  width: 350px;
+  padding: 8px;
+  margin: 10px;
+}
+
+#model .model_content .container section .pass {
+  width: 350px;
+  padding: 8px;
+  margin: 10px;
+}
+
+#model .model_content .container section .check {
+  margin: 10px 5px;
+}
+
+#model .model_content .container section button {
+  margin-left: 20px;
+  padding: 5px 10px;
+}
+
+#model .model_content .center {
+  padding: 60px;
+}
+
+#model .model_content .center .model_close {
+  padding: 10px;
+  position: fixed;
+  cursor: pointer;
+}
+
+#model .model_content .container_func {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px;
+  background-color: #3D4742;
+}
+
+#model .model_content .container_func .cancel {
+  background: #C24240;
+  border-color: #C24240;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-size: 15px;
+  color: #FFDFC1;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#model .model_content .container_func a {
+  font-size: 13px;
+  text-decoration: underline;
+  color: #FFDFC1;
+  bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */

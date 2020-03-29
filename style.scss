@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "微軟正黑體";
+    box-sizing: border-box;
+}
+#model{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .model_content{
+        display:none;
+        width:400px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+        background-color: #68B7AD;
+        .container{
+            margin-left: 10px;
+            section{
+                margin-bottom: 10px;
+                .user{
+                    width:350px;
+                    padding:8px;
+                    margin:10px;
+                }
+                .pass{
+                    width:350px;
+                    padding:8px;
+                    margin:10px;
+                }
+                .check{
+                    margin:10px 5px;
+                }
+                button{
+                    margin-left:20px;
+                    padding:5px 10px;
+                }
+            }
+           
+        }
+        .center{
+            padding:60px;
+            .model_close{
+                padding:10px;
+                position: fixed;
+                cursor: pointer;
+            }
+        }
+        .container_func{
+            display: flex;
+            justify-content: space-between;
+            padding:15px;
+            background-color: #3D4742;
+            .cancel{
+                background: #C24240;
+                border-color: #C24240;
+                border-radius: 5px;
+                padding:8px 16px;
+                font-size: 15px;
+                color:#FFDFC1;
+                cursor: pointer;
+                margin-left:10px;
+            }
+            a{
+                font-size:13px;
+                text-decoration: underline;
+                color: #FFDFC1;
+                bottom:10px;
+                display: flex;
+                align-items: center;
+            }
+            
+        }
+    }
+}
+
